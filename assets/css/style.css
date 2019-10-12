@@ -16,6 +16,7 @@ ul {
     background-color: white;
   }
   h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     float: left;
     padding: 25px;
     color:white;
@@ -24,6 +25,7 @@ ul {
   }
 
   h2{
+    font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5
   }
 
@@ -71,7 +73,7 @@ hr.style1{
   }
 
   .bodyport {
-    height: 500px;
+    height: 800px;
     margin: 50px; /* TRBL*/
     background-color: white;
     padding: 50px;
@@ -114,4 +116,28 @@ hr.style1{
 img {
     height: 200px;
     width: 200px;
+}
+
+.portfolioimage {
+    margin: 0px 50px 0px 0px;
+    float: left;
+    width: 43%;
+    padding: 0px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.imagetext {
+  position: relative;
+  padding: 15px;
+  bottom: 65px;
+  left: 0px;
+  background-color:#4aaaa5;
+  color:white;
+  text-align: center;
+  font-family: 'Georgia', Times, Times New Roman, serif;
 }
