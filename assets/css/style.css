@@ -18,7 +18,7 @@ ul {
   h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     float: left;
-    padding: 25px;
+    padding: 25px 25px 25px 50px;
     color:white;
     background-color:#4aaaa5;
     text-align: center;
@@ -49,7 +49,6 @@ ul {
   }
 
   .top {
-    margin: 0px;
     background-color: white;
     border: 1px solid #cccccc;
   }
@@ -65,7 +64,7 @@ hr.style1{
 }
   .body {
     height: 500px;
-    margin: 50px; /* TRBL*/
+    margin: 50px 0px 0px 0px; /* TRBL*/
     background-color: white;
     padding: 50px;
     border: 1px solid #dddddd;
@@ -73,19 +72,22 @@ hr.style1{
   }
 
   .bodyport {
+      
     height: 800px;
-    margin: 50px; /* TRBL*/
+    margin: 50px 0px 0px 0px; /* TRBL*/
     background-color: white;
     padding: 50px;
     border: 1px solid #dddddd;
+
   }
 
 .bodyabout {
     height: 370px;
-    margin: 50px; /* TRBL*/
+    margin: 50px 0px 0px 0px; /* TRBL*/
     background-color: white;
     padding: 50px;
     border: 1px solid #dddddd;
+
 }
   p {
       padding: 10px;
